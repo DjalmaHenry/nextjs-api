@@ -36,7 +36,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Bio Description&nbsp;
+            Bio&nbsp;
             <code className={styles.code}>Djalma Lima</code>
           </p>
           <div>
