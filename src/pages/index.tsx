@@ -22,7 +22,6 @@ export default function Home() {
       .then((res) => res.json())
       .then((data) => {
         setLinks(data.data);
-        console.log(data.data);
       });
   }, []);
   return (
@@ -69,7 +68,9 @@ export default function Home() {
           />
           <div className={styles.thirteen}>
             <div className="presentation">
-              <h1 className={styles.titlePresentation}>Djalma Henrique Silva Lima</h1>
+              <h1 className={styles.titlePresentation}>
+                Djalma Henrique Silva Lima
+              </h1>
               <p className={styles.descriptionPresentation}>
                 <code className={styles.code}>Fullstack Developer</code>
               </p>

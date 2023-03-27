@@ -11,6 +11,8 @@ export default async function handler(
 
   switch (method) {
     case "GET":
+      console.log("GET");
+      console.log(prisma.link.findMany());
       const links = await prisma.link.findMany();
 
       return res.status(200).json({
