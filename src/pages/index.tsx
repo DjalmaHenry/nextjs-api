@@ -78,6 +78,17 @@ export default function Home() {
           </div>
         </div>
 
+        {links.length === 0 && (
+          <div className={styles.loading}>
+            <div className={styles.ldsRing}>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        )}
+
         <div className={styles.grid}>
           {links.map((link) => (
             <a
