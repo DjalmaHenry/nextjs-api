@@ -72,7 +72,7 @@ export default function Home() {
                 Djalma Henrique Silva Lima
               </h1>
               <p className={styles.descriptionPresentation}>
-                <code className={styles.code}>Fullstack Engineer</code>
+                <code className={styles.code}>Full Stack Software Engineer</code>
               </p>
             </div>
           </div>
